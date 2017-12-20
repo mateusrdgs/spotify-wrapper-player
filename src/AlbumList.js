@@ -1,3 +1,5 @@
+/* eslint no-param-reassign: ["error", { "props": false }] */
+
 function createMarkup(data) {
   return data.map(album => `
     <div class="list-item" data-album-id="${album.id}">
