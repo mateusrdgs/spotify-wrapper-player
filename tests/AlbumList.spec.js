@@ -3,7 +3,6 @@
 import 'jsdom-global/register';
 import chai, { expect } from 'chai';
 import dirtyChai from 'dirty-chai';
-import chaiDom from 'chai-dom';
 import renderAlbums from '../src/AlbumList';
 
 chai.use(dirtyChai);
